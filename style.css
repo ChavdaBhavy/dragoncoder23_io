@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.bg_color{
+  background-color: #1C1D20;
+  height: auto;
+}
+.navebar{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 80px;
+  padding: 0 5%;
+}
+.left h1{
+  font-size: 40px;
+  cursor: pointer;
+  color: #5a007b;
+}
+.checkBtn{
+  display: none;
+}
+#check{
+  display: none;
+}
+.checkBtn{
+  cursor: pointer;
+  font-size: 30px;
+  float: right;
+  color: #5a007b;
+  line-height: 80px;
+}
+.right ul{
+  display: flex;
+  list-style: none;
+}
+.right ul li a {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #5a007b;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 800;
+}
+.right ul li a:hover{
+  transition: all 2ms;
+  color:#000000;
+}
+.submanu{
+  display: none;
+  color: white;
+}
+.right ul li:hover .submanu{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #ffffff;
+  z-index: calc(9999);
+  transition: all 2ms;
+  
+}
+.submanu ul{
+  display: block;
+  margin: 0;
+  color: white;
+}
+
+#main{
+  width: 100%;
+  height: 720px;
+}
+.container{
+  padding-top: 4%;
+  color: white;
+}
+
+.container .h21{
+  font-size: 50px;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.container .monitor_disply{
+  font-size: 60px;
+  padding-left: 5%;
+  padding-top: 2%;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(91, 0, 123, 0.70) 0%, #D8F908 33.33%, rgba(255, 113, 164, 0.63) 66.67%, rgba(173, 19, 228, 0.63) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container .phone_disply{
+  display: none;
+}
+.container .h22{
+  font-size: 50px;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+.container .img2{
+  padding-left: 5%;
+  padding-top: 2%;
+}
+.container .img2 img{
+  width: 70px;
+  height: 70px;
+}
+.container h3{
+  padding-left: 5%;
+  padding-top: 2%;
+  font-size: 25pxs;
+}
+.footer h3{
+  color: white;
+  text-align: right;
+  margin-right: 5%;
+  margin-top: 5%;
+}

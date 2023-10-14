@@ -1,0 +1,89 @@
+@media screen and (max-width:660px)
+{
+    #main{
+        height: 700px;
+        position: fixed;
+        
+    }
+    .glass{
+        width: 83%;
+        height: 500px;
+        margin: auto;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px;
+        border:1px solid rgba(255, 255, 255, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+    .container{
+        text-align: center;
+        padding-top: 15%;
+    }
+    .container .h21{
+        font-size: 45px;
+        padding-top: 5%;
+        padding-left: 8%;
+    }
+    .container h1{
+        display: none;
+    }
+    .container .phone_disply{
+        display: block;
+        font-size: 70px;
+        padding-left: 5%;
+        padding-top: 8%;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(91, 0, 123, 0.70) 0%, #D8F908 33.33%, rgba(255, 113, 164, 0.63) 66.67%, rgba(173, 19, 228, 0.63) 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+    }
+    .container .h22{
+        font-size: 45px;
+        padding-top: 5%;
+        padding-left: 8%;
+    }
+    .container .img2{
+        padding-top: 8%;
+    }
+    .container h3{
+        padding-top: 8%;
+    }
+    .footer h3{
+        margin-right: 0;
+        text-align: center;
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:990px)
+{
+    .list{
+        width: 100%;
+        height: auto;
+        background-color:white;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 4rem;
+        left: 100%;
+        transition: all 1s;
+        color: white;
+        z-index: 99999;
+    }
+    #check{
+        display: none;
+    }
+    .checkBtn{
+        display: block;
+    }
+    #check:checked~ul{
+        left: 0%;
+    }
+    .submanu{
+        width: 100%;
+        transition: all 1s;
+    }
+}
+
