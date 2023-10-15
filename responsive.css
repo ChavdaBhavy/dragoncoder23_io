@@ -1,0 +1,81 @@
+@media screen and (max-width:880px)
+{
+    .container{
+        width: auto;
+        padding: 10% 5%;
+    }
+    .box1{
+        width: auto;
+        box-shadow: none;
+    }
+    .box2{
+        width: auto;
+        box-shadow: none;
+    }
+    .box3{
+        width: auto;
+        box-shadow: none;
+    }
+    .github_c #icon_git{
+        padding: 6% 2%;
+    }
+    .box4{
+        width: auto;
+        box-shadow: none;
+    }
+    .box4 #icon_code{
+        padding: 6% 2%;
+    }
+    .box5{
+        width: auto;
+        box-shadow: none;
+    }
+    .box5 .thanks1{
+        padding: 7% 2%;
+    }
+    .box6{
+        width: auto;
+        box-shadow: none;
+    }
+    
+}
+@media screen and (max-width:680px)
+{
+    .container{
+        width: auto;
+        padding: 10% 5%;
+    }
+    .box1{
+        width: auto;
+        box-shadow: none;
+    }
+    .box2{
+        width: auto;
+        box-shadow: none;
+    }
+    .box3{
+        width: auto;
+        box-shadow: none;
+    }
+    .github_c #icon_git{
+        padding: 6% 2%;
+    }
+    .box4{
+        width: auto;
+        box-shadow: none;
+    }
+    .box4 #icon_code{
+        padding: 6% 2%;
+    }
+    .box5{
+        width: auto;
+        box-shadow: none;
+    }
+    .box5 .thanks1{
+        padding: 7% 2%;
+    }
+    .box6{
+        width: auto;
+        box-shadow: none;
+    }
+}

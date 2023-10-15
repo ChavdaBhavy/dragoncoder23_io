@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+#main{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.container{
+    width: 600px;
+    height: auto;
+    margin: auto;
+    background: transparent;
+    /*background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);*/
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.box1
+{   
+    margin: auto;
+    width: 520px;
+    height: 220px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    /*box-shadow:  11px 11px 22px #9f9f9f,
+                -11px -11px 22px #ffffff;*/
+    justify-content: center; 
+    text-align: center;
+}
+.box1 img{
+    margin-top: 3%;
+    width: 70px;
+    height: 70px;
+    border-radius: 360%;
+}
+.box1 h2{
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.box1 h4{
+    margin-top: 2%;
+    font-weight: 400;
+    font-size: 15px;
+}
+.icons .icon{
+    margin-top: 2%;
+    font-size: 25px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.box2{
+    margin: auto;
+    width: 520px;
+    height: 200px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    /*box-shadow:  11px 11px 22px #9f9f9f,
+                -11px -11px 22px #ffffff;*/
+    cursor: pointer;
+    text-align: justify;
+}
+.contant{
+    margin-top: 5%;
+    padding: 6% 6%;
+    font-weight: 300;
+}
+.box3
+{
+    margin: auto;
+    width: 520px;
+    height: 80px;
+    border-radius: 15px;
+    background: #e0e0e0;
+    /*box-shadow:  11px 11px 22px #9f9f9f,
+                -11px -11px 22px #ffffff;*/
+    cursor: pointer;
+}
+.box3 .github_c{
+    margin-top: 5%;
+    text-align: center;
+}
+.github_c #icon_git{
+    padding: 4% 2%;
+    font-size: 30px;
+}
+.box4
+{
+    margin: auto;
+    width: 520px;
+    height: 80px;
+    border-radius: 15px;
+    background: #e0e0e0;
+    /*box-shadow:  11px 11px 22px #9f9f9f,
+                -11px -11px 22px #ffffff;*/
+    cursor: pointer;
+}
+.box4 .source_code{
+    margin-top: 5%;
+    text-align: center;
+}
+.box4 #icon_code{
+    padding: 4% 2%;
+    font-size: 30px;
+}
+.box5{
+    margin: auto;
+    width: 520px;
+    height: 80px;
+    border-radius: 15px;
+    background: #e0e0e0;
+    /*box-shadow:  11px 11px 22px #9f9f9f,
+                -11px -11px 22px #ffffff;*/
+    cursor: pointer;
+}
+.box5 .thanks1{
+    margin-top: 5%;
+    padding: 5% 2%;
+    text-align: center;
+}
+.box6{
+    margin: auto;
+    width: 520px;
+    height: 120px;
+    border-radius: 15px;
+    background: transparent;
+    cursor: pointer;
+}
+.dragon_img{
+    margin-top: 5%;
+    text-align: center;
+}
+.dragon_img img{
+    width: 100px;
+    height: 100px;
+    margin-top: 2%;
+    text-align: center;
+}
